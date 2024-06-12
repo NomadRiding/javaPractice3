@@ -1,0 +1,74 @@
+.body {
+  background-color: rgb(175, 217, 236);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  }
+
+.container  {
+  background-image: url(images/bg2.jpg);
+  background-size: contain;
+  height: 100vh;
+  width: auto;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+}
+
+.headerClass {
+/* border: 2px solid black; */
+/* display: flex; */
+width: 910px;
+}
+
+
+/* Progress Bar */
+
+#myProgress {
+  margin-left: 60px;
+  margin-bottom: 20px;
+  width: 80%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 0.1%;
+  height: 30px;
+  background-color: #04AA6D;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+}
+
+.percentBar {
+  font-size: 18px;
+  margin-left: 20px;
+}
+  .startContainer{
+    background-color: rgb(162, 207, 248);
+    margin-left: 50px;
+    height: 500px;
+    width: 300px;
+    color: black;
+  }
+
+  .headerTitle{
+    font-size: 32px;
+    color: rgb(15, 14, 117);
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .img {
+    width: 55px;
+    height:45px;
+  }
+
+  .coinCount {
+    color: green;
+    font-weight: bold;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #126900;
+  }
